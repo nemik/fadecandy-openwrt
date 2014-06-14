@@ -1,9 +1,9 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=fcserver
-PKG_VERSION:=0.1
+PKG_VERSION:=0.2
 
-PKG_REV:=a881a746c84c0b472d4f32fc584a6161775f704a
+PKG_REV:=0c39f05138b606e2bef6a29672b57793896e9126
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=git://github.com/scanlime/fadecandy
