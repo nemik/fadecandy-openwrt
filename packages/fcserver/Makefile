@@ -20,7 +20,7 @@ define Package/fcserver
   CATEGORY:=Utilities
   TITLE:=FadeCandy Server
 	URL:=https://github.com/scanlime/fadecandy
-	DEPENDS:=+libpthread +librt +uclibcxx +libstdcpp +libc 
+	DEPENDS:=+libpthread +librt +uclibcxx +libstdcpp +libc +libusbx 
 endef
 
 define Package/fcserver/description
